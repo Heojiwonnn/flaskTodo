@@ -4,9 +4,9 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# MySQL 연결 설정 (로컬설정)
+# MySQL 연결 설정
 db_config = {
-    'host': 'localhost',
+    'host': '10.0.66.28',
     'user': 'sejong',
     'password': '1234',
     'database': 'todo_db'
