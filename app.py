@@ -8,7 +8,7 @@ app = Flask(__name__)
 db_config = {
     'host': '10.0.66.28',
     'user': 'sejong',
-    'password': '1234',
+    'password': '12341234',
     'database': 'todo_db'
 }
 
